@@ -12,7 +12,7 @@ from multiprocessing.dummy import Pool
 from fake_useragent import UserAgent
 
 
-doors = ['http://www.tu11.com/xingganmeinvxiezhen/list_1_%d.html' % h for h in range(1, 50)]
+doors = ['http**t_1_%d.html' % h for h in range(1, 50)]
 headers = {'User-Agent': UserAgent().random}
 s = requests.Session()
 proxies = {'https': '221.228.17.172:8181'}
